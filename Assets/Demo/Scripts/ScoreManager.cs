@@ -1,11 +1,12 @@
 ﻿using UnityEngine;
+using TMPro;
 
 public class ScoreManager : MonoBehaviour
 {
     public static ScoreManager Instance;
     public AudioSource hitSFX;
     public AudioSource missSFX;
-    public TMPro.TextMeshPro scoreText;
+    public TextMeshProUGUI scoreText;
     static int comboScore;
     void Start()
     {
