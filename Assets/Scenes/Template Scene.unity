@@ -444,9 +444,9 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: bd87b666bbef3e8439bc86786b9d5d39, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 60b0394a099e3bd47a60b713e01816ea, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.518
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -689,7 +689,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!212 &768420492
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1113,7 +1113,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!328 &1142602312
 VideoPlayer:
   m_ObjectHideFlags: 0
@@ -1122,8 +1122,8 @@ VideoPlayer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1142602311}
   m_Enabled: 1
-  m_VideoClip: {fileID: 32900000, guid: e99b29022970d26448882a366c9805a5, type: 3}
-  m_TargetCameraAlpha: 0.75
+  m_VideoClip: {fileID: 32900000, guid: 05fd3285a76ef39459463691e579ae19, type: 3}
+  m_TargetCameraAlpha: 0.5
   m_TargetCamera3DLayout: 0
   m_TargetCamera: {fileID: 225704904}
   m_TargetTexture: {fileID: 0}
@@ -1133,12 +1133,12 @@ VideoPlayer:
   m_RenderMode: 0
   m_AspectRatio: 2
   m_DataSource: 0
-  m_PlaybackSpeed: 10
+  m_PlaybackSpeed: 1
   m_AudioOutputMode: 2
   m_TargetAudioSources:
   - {fileID: 0}
   m_DirectAudioVolumes:
-  - 1
+  - 0
   m_Url: 
   m_EnabledAudioTracks: 01
   m_DirectAudioMutes: 00
