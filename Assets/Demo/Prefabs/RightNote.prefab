@@ -46,6 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   assignedTime: 0
+  speedmodifier: 1
 --- !u!212 &1534850418514208907
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -87,7 +88,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: da457d0ffd8f36a4a93bf0facb6333e4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 452147cdc8ac0be4cb9d2b9ccbd9fb31, type: 3}
   m_Color: {r: 1, g: 0.9093014, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0

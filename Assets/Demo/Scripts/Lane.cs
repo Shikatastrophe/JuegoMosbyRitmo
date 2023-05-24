@@ -7,6 +7,8 @@ public class Lane : MonoBehaviour
 {
     public Melanchall.DryWetMidi.MusicTheory.NoteName noteRestriction;
     public KeyCode input; //Se debe de cambiar a el input de arduino
+    public KeyCode input2; //Se debe de cambiar a el input de arduino
+    public int input3; //Se debe de cambiar a el input de arduino
     public GameObject notePrefab;
     List<Note> notes = new List<Note>();
     public List<double> timeStamps = new List<double>();
@@ -45,7 +47,7 @@ public class Lane : MonoBehaviour
             double marginOfError = SongManager.Instance.marginOfError;
             double audioTime = SongManager.GetAudioSourceTime() - (SongManager.Instance.inputDelayInMilliseconds / 1000.0);
 
-            if (Input.GetKeyDown(input)) //debe de ser alterado para funcionar con el juego 
+            if (Input.GetKeyDown(input) || Input.GetKeyDown(input2)) //debe de ser alterado para funcionar con el juego 
             {
                 if (Math.Abs(audioTime - timeStamp) < marginOfError)
                 {
