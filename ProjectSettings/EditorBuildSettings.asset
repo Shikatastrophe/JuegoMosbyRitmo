@@ -6,6 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Level 1 We Will Rock You.unity
+    path: Assets/Scenes/Menu.unity
+    guid: 1a050b7a5dfa40c469f092e3322f95d5
+  - enabled: 1
+    path: Assets/Scenes/Lvl Select.unity
+    guid: 73849b6444eaf584a9eed36dca4ee463
+  - enabled: 1
+    path: Assets/Scenes/Lvl 1 We Will Rock You.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Lvl 2 We Are!.unity
+    guid: 90384976f44bd9840820d9396befae47
+  - enabled: 1
+    path: Assets/Scenes/Lvl 3 SpiderDance.unity
+    guid: a1dc67f3a6faf234fb28df0ae22a6c16
+  - enabled: 1
+    path: Assets/Scenes/Lvl 4 iimagine dragonzzz.unity
+    guid: e9634d1926696794dac6502fa362a813
   m_configObjects: {}
