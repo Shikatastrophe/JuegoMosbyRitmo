@@ -1244,7 +1244,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 488502937}
         m_TargetAssemblyTypeName: SceneManagerz, Assembly-CSharp
-        m_MethodName: Radioactive
+        m_MethodName: Crypteque
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

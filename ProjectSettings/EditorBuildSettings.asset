@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lvl 4 iimagine dragonzzz.unity
     guid: e9634d1926696794dac6502fa362a813
+  - enabled: 1
+    path: Assets/Scenes/Lvl 5 Crypteque.unity
+    guid: 22e339b735f305841b45a0b0495a1f71
   m_configObjects: {}
