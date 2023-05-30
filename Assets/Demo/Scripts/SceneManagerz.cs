@@ -34,4 +34,9 @@ public class SceneManagerz : MonoBehaviour
     {
         SceneManager.LoadScene("Lvl 4 iimagine dragonzzz");
     }
+
+    public void Crypteque()
+    {
+        SceneManager.LoadScene("Lvl 5 Crypteque");
+    }
 }
