@@ -18,12 +18,8 @@ public class Lane : MonoBehaviour
     int spawnIndex = 0;
     int inputIndex = 0;
 
-    SerialPort serial = new SerialPort("COM16", 9600);
-
     private void Start()
     {
-        serial.Open();
-        serial.ReadTimeout = 1;
     }
     public void SetTimeStamps(Melanchall.DryWetMidi.Interaction.Note[] array)
     {
@@ -39,6 +35,7 @@ public class Lane : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
         if (spawnIndex < timeStamps.Count)
         {
             if (SongManager.GetAudioSourceTime() >= timeStamps[spawnIndex] - SongManager.Instance.noteTime)
@@ -50,7 +47,7 @@ public class Lane : MonoBehaviour
             }
         }
 
-
+        
 
         if (inputIndex < timeStamps.Count)
         {
@@ -58,9 +55,7 @@ public class Lane : MonoBehaviour
             double marginOfError = SongManager.Instance.marginOfError;
             double audioTime = SongManager.GetAudioSourceTime() - (SongManager.Instance.inputDelayInMilliseconds / 1000.0);
 
-            
-
-            if (Input.GetKeyDown(input) || Input.GetKeyDown(input2)) //debe de ser alterado para funcionar con el juego 
+            if (Input.GetKeyDown(input) || Input.GetKeyDown(input2) || ArduinoInputLoggerGaming.byteGaming == input3) //debe de ser alterado para funcionar con el juego 
             {
                 if (Math.Abs(audioTime - timeStamp) < marginOfError)
                 {
