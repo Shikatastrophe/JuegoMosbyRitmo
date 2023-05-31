@@ -1141,7 +1141,7 @@ MonoBehaviour:
   noteRestriction: 0
   input: 276
   input2: 100
-  input3: 0
+  input3: 1
   notePrefab: {fileID: 1679635116095923819, guid: cc28a87238983584da68d44f3dd25845, type: 3}
   timeStamps: []
 --- !u!4 &1396068108

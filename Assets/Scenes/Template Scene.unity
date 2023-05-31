@@ -260,7 +260,7 @@ MonoBehaviour:
   noteRestriction: 11
   input: 275
   input2: 107
-  input3: 0
+  input3: 4
   notePrefab: {fileID: 1534850418514208906, guid: 9043eb2d71628404d9dfdc92d43fc48c, type: 3}
   timeStamps: []
 --- !u!4 &193920363
@@ -499,7 +499,7 @@ MonoBehaviour:
   noteRestriction: 4
   input: 276
   input2: 100
-  input3: 0
+  input3: 1
   notePrefab: {fileID: 1679635116095923819, guid: cc28a87238983584da68d44f3dd25845, type: 3}
   timeStamps: []
 --- !u!4 &342598497
@@ -549,7 +549,7 @@ MonoBehaviour:
   noteRestriction: 5
   input: 273
   input2: 102
-  input3: 0
+  input3: 2
   notePrefab: {fileID: 4003208864679534659, guid: b93f007ca30546343b6fb9f22a218a42, type: 3}
   timeStamps: []
 --- !u!4 &345741825
@@ -1113,6 +1113,50 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1070228503
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1070228504}
+  - component: {fileID: 1070228505}
+  m_Layer: 0
+  m_Name: Test
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1070228504
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070228503}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1070228505
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070228503}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8de8f41b3fe2bd244a4dfa9c6a39e1d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1131080919
 GameObject:
   m_ObjectHideFlags: 0
@@ -1480,7 +1524,7 @@ MonoBehaviour:
   noteRestriction: 9
   input: 274
   input2: 106
-  input3: 0
+  input3: 3
   notePrefab: {fileID: 6401272534080061571, guid: a043c4f729c0ef1429ea13081611a298, type: 3}
   timeStamps: []
 --- !u!4 &1767087308
@@ -1664,7 +1708,7 @@ MonoBehaviour:
   songDelayInSeconds: 0
   marginOfError: 0.07
   inputDelayInMilliseconds: 0
-  fileLocation: we_made_a_chart_pog.mid
+  fileLocation: weare.mid
   noteTime: 1
   noteSpawnY: 15
   noteTapY: -3

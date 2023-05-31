@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using UnityEngine;
+using System.IO.Ports;
 
 public class Lane : MonoBehaviour
 {
@@ -12,10 +13,18 @@ public class Lane : MonoBehaviour
     public GameObject notePrefab;
     List<Note> notes = new List<Note>();
     public List<double> timeStamps = new List<double>();
+    int serialgaming;
 
     int spawnIndex = 0;
     int inputIndex = 0;
 
+    SerialPort serial = new SerialPort("COM16", 9600);
+
+    private void Start()
+    {
+        serial.Open();
+        serial.ReadTimeout = 1;
+    }
     public void SetTimeStamps(Melanchall.DryWetMidi.Interaction.Note[] array)
     {
         foreach (var note in array)
@@ -41,11 +50,15 @@ public class Lane : MonoBehaviour
             }
         }
 
+
+
         if (inputIndex < timeStamps.Count)
         {
             double timeStamp = timeStamps[inputIndex];
             double marginOfError = SongManager.Instance.marginOfError;
             double audioTime = SongManager.GetAudioSourceTime() - (SongManager.Instance.inputDelayInMilliseconds / 1000.0);
+
+            
 
             if (Input.GetKeyDown(input) || Input.GetKeyDown(input2)) //debe de ser alterado para funcionar con el juego 
             {
