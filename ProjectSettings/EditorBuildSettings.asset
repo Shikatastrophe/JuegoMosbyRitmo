@@ -26,4 +26,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Lvl 5 Crypteque.unity
     guid: 22e339b735f305841b45a0b0495a1f71
+  - enabled: 1
+    path: Assets/Scenes/Lvl 6 The Reaver King.unity
+    guid: fa9ca65745506964db8cf699aa3dc359
   m_configObjects: {}

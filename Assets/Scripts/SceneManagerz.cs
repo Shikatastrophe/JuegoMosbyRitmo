@@ -45,6 +45,11 @@ public class SceneManagerz : MonoBehaviour
         SceneManager.LoadScene("Lvl 5 Crypteque");
     }
 
+    public void ReaverKing()
+    {
+        SceneManager.LoadScene("Lvl 6 The Reaver King");
+    }
+
     public void Reload()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

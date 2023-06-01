@@ -18,7 +18,8 @@ public class ScoreResults : MonoBehaviour
     {
         if (!audioSource.isPlaying)
         {
-            animator.SetBool("isPlaying", true);
+            animator.SetBool("isFinished", true);
         }
+              
     }
 }
