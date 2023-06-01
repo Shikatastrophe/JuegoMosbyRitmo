@@ -1218,8 +1218,8 @@ MonoBehaviour:
   marginOfError: 0.15
   inputDelayInMilliseconds: 0
   fileLocation: WeWillRockYou.mid
-  noteTime: 2.5
-  noteSpawnY: 50
+  noteTime: 1
+  noteSpawnY: 15
   noteTapY: -3
 --- !u!4 &1548977838
 Transform:
@@ -2003,3 +2003,60 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1e666bd42ffd17c43b0c525a941b08b5, type: 3}
+--- !u!1001 &6592305679306461807
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6592305679263578809, guid: 2a64ee6ade5f54342a19662620b49472, type: 3}
+      propertyPath: m_RootOrder
+      value: 17
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592305679263578809, guid: 2a64ee6ade5f54342a19662620b49472, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592305679263578809, guid: 2a64ee6ade5f54342a19662620b49472, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592305679263578809, guid: 2a64ee6ade5f54342a19662620b49472, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592305679263578809, guid: 2a64ee6ade5f54342a19662620b49472, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592305679263578809, guid: 2a64ee6ade5f54342a19662620b49472, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592305679263578809, guid: 2a64ee6ade5f54342a19662620b49472, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592305679263578809, guid: 2a64ee6ade5f54342a19662620b49472, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592305679263578809, guid: 2a64ee6ade5f54342a19662620b49472, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592305679263578809, guid: 2a64ee6ade5f54342a19662620b49472, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592305679263578809, guid: 2a64ee6ade5f54342a19662620b49472, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6592305679263578811, guid: 2a64ee6ade5f54342a19662620b49472, type: 3}
+      propertyPath: m_Name
+      value: Laneholder
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 2a64ee6ade5f54342a19662620b49472, type: 3}
