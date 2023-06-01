@@ -50,6 +50,11 @@ public class SceneManagerz : MonoBehaviour
         SceneManager.LoadScene("Lvl 6 The Reaver King");
     }
 
+    public void Ominous()
+    {
+        SceneManager.LoadScene("Escena ominosa");
+    }
+
     public void Reload()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
