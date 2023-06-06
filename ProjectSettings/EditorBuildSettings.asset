@@ -30,6 +30,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Lvl 6 The Reaver King.unity
     guid: fa9ca65745506964db8cf699aa3dc359
   - enabled: 1
+    path: Assets/Scenes/Lvl 7 It Might be painful.unity
+    guid: 7049c58f4b6b8a242acf2216b6d93e2e
+  - enabled: 1
     path: Assets/Scenes/Escena ominosa.unity
     guid: 9dc46d12c4d068346847091fb45d90bc
   - enabled: 1
