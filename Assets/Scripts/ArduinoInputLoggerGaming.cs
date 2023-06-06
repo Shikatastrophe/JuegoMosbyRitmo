@@ -6,7 +6,7 @@ using System.IO.Ports;
 public class ArduinoInputLoggerGaming : MonoBehaviour
 {
    public static int byteGaming;
-	SerialPort sp = new SerialPort("COM4", 9600); // set port of your arduino connected to computer
+	SerialPort sp = new SerialPort("COM17", 9600); // set port of your arduino connected to computer
 
 	void Start () {
 		sp.Open();
