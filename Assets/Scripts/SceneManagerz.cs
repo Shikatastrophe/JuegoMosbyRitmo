@@ -55,6 +55,20 @@ public class SceneManagerz : MonoBehaviour
         SceneManager.LoadScene("Lvl 7 It Might be painful");
     }
 
+    public void BIB()
+    {
+        SceneManager.LoadScene("Lvl 8 Back in Black");
+    }
+
+    public void PINK()
+    {
+        SceneManager.LoadScene("Lvl9 PINK");
+    }
+
+    public void Humanlike()
+    {
+        SceneManager.LoadScene("Lvl10 HUMANLIKE");
+    }
     public void Ominous()
     {
         SceneManager.LoadScene("Escena ominosa");

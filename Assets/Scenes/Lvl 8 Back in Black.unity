@@ -1218,8 +1218,8 @@ MonoBehaviour:
   marginOfError: 0.15
   inputDelayInMilliseconds: 0
   fileLocation: BiB.mid
-  noteTime: 1
-  noteSpawnY: 15
+  noteTime: 3
+  noteSpawnY: 50
   noteTapY: -3
 --- !u!4 &1548977838
 Transform:
