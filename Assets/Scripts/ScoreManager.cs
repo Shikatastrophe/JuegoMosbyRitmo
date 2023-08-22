@@ -8,14 +8,22 @@ public class ScoreManager : MonoBehaviour
     public AudioSource missSFX;
     public TextMeshProUGUI scoreText;
     static int comboScore;
+    static int score = 0;
+    public static int scoreholder;
+    public TextMeshProUGUI scoreText2;
     void Start()
     {
         Instance = this;
         comboScore = 0;
+        score = 0;
+        scoreholder = 0;
+        scoreText.text = score.ToString();
+        scoreText2.text = "0";
     }
     public static void Hit()
     {
         comboScore += 1;
+        scoreholder += 6;
         Instance.hitSFX.Play();
     }
     public static void Miss()
@@ -25,6 +33,7 @@ public class ScoreManager : MonoBehaviour
     }
     private void Update()
     {
-        scoreText.text = comboScore.ToString();
+        scoreText.text = scoreholder.ToString();
+        scoreText2.text = comboScore.ToString();
     }
 }

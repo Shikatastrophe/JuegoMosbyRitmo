@@ -5,6 +5,13 @@ using UnityEngine.SceneManagement;
 
 public class SceneManagerz : MonoBehaviour
 {
+    private void Update()
+    {
+        if (Input.GetKeyDown("escape"))
+        {
+            SceneManager.LoadScene("Lvl Select");
+        }
+    }
     public void Play()
     {
         SceneManager.LoadScene("Lvl Select");
@@ -22,7 +29,7 @@ public class SceneManagerz : MonoBehaviour
 
     public void WeWillRockYou()
     {
-        SceneManager.LoadScene("Lvl 1 We Will Rock You");
+        SceneManager.LoadScene("Lvl 1 We Will Rock You 1");
     }
 
     public void WeAre()
@@ -73,7 +80,15 @@ public class SceneManagerz : MonoBehaviour
     {
         SceneManager.LoadScene("Escena ominosa");
     }
+    public void toho()
+    {
+        SceneManager.LoadScene("Lvl 11 Nights of Nights");
+    }
 
+    public void ajaja()
+    {
+        SceneManager.LoadScene("Creditos");
+    }
     public void Reload()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);

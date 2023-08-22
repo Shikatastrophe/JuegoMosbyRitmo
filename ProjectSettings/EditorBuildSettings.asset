@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Lvl Select.unity
     guid: 73849b6444eaf584a9eed36dca4ee463
   - enabled: 1
+    path: Assets/Scenes/Lvl 1 We Will Rock You 1.unity
+    guid: 6b7d8c514957b3c4cadf2e9802b30560
+  - enabled: 1
     path: Assets/Scenes/Lvl 2 We Are!.unity
     guid: 90384976f44bd9840820d9396befae47
   - enabled: 1
@@ -39,9 +42,15 @@ EditorBuildSettings:
     path: Assets/Scenes/Lvl10 HUMANLIKE.unity
     guid: c9c910bdb54a1634ab961f0ad895a230
   - enabled: 1
+    path: Assets/Scenes/Lvl 11 Nights of Nights.unity
+    guid: 8d08eb54e16242c47aed071e7ee34678
+  - enabled: 1
     path: Assets/Scenes/Escena ominosa.unity
     guid: 9dc46d12c4d068346847091fb45d90bc
   - enabled: 1
     path: Assets/Scenes/Lvl Secret.unity
     guid: 437c94a40ff228c47a323f7cd761c9a5
+  - enabled: 1
+    path: Assets/Scenes/Creditos.unity
+    guid: 5be0e18dd0ce51846b19d81da6187d12
   m_configObjects: {}
